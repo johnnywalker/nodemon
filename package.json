@@ -1,0 +1,17 @@
+{
+  "name": "nodemon",
+  "version": "1.0.0",
+  "description": "Run node process and monitor stats",
+  "bin": {
+    "nodemon": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johnny Walker",
+  "license": "MIT",
+  "dependencies": {
+    "hot-shots": "^10.2.1",
+    "process-top": "^1.3.0"
+  }
+}

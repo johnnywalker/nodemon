@@ -53,6 +53,7 @@
         echo "Please use npm instead of yarn"
         exit 1
       '';
+      default = pkgs.callPackage ./default.nix {};
     });
 
     devShells = eachSystem (pkgs: {
